@@ -12,17 +12,3 @@ while($love ne $injection) {
 };
 
 print "ラブ注入♡\n";
-
-# use Encode;
-# @a
-#  = ("ドド", "スコ");
-# $b = ($a[0] . $a[1] x 3) x 3;
-# $c = "";
-# while ($d ne $b) {
-#     $c .= $a[int(rand(2))];
-#     $d = decode_utf8($c);
-#     $d = encode('utf-8', substr($d, length($d) - 24, 24));
-#     print "$d\n";
-#     # if ($d eq $b) {print "ラブ注入💛\n";last;}
-# }
-# print "ラブ注入♡\n";
